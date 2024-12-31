@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Term Exam Result</title>
+    <style>
+        table {
+            width: 90%;
+            table-layout: auto; /* Ensures flexibility in column widths */
+            border-collapse: collapse;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            word-wrap: break-word; /* Wraps text to stay inside cells */
+            vertical-align: middle; /* Aligns text vertically */
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .header {
+            font-style: italic;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .photo {
+            text-align: center;
+        }
+        .photo img {
+            width: 120px;
+            height: auto;
+        }
+        .subject-col {
+            width: 20%; /* Adjust column width for subjects */
+        }
+        .score-col {
+            width: 10%; /* Equal width for score-related columns */
+        }
+        .photo-col {
+            width: 25%; /* Dedicated width for the photo column */
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">Your College Name</div>
+<div class="header">First Term Exam Result</div>
+
+<table>
+    <tr>
+        <td colspan="1">Name</td>
+        <td colspan="2">Ram Bahadur</td>
+        <td rowspan="1" class="photo photo-col">
+            <img src="https://www.hindustantimes.com/ht-img/img/2024/09/11/550x309/IShowSpeed_1726051033695_1726051042184.jpg" alt="Student Photo">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="1">Roll Number</td>
+        <td colspan="2">525</td>
+    </tr>
+    <tr>
+        <th class="subject-col" rowspan="2">Subject</th>
+        <th class="score-col" colspan="2">Total</th>
+        <th class="score-col" colspan="2">Obtained</th>
+    </tr>
+    <tr>
+        <th class="score-col">Theory</th>
+        <th class="score-col">Practical</th>
+        <th class="score-col">Theory</th>
+        <th class="score-col">Practical</th>
+    </tr>
+    <tr>
+        <td>Physics</td>
+        <td>100</td>
+        <td>25</td>
+        <td>65</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Chemistry</td>
+        <td>100</td>
+        <td>25</td>
+        <td>85</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Biology</td>
+        <td>100</td>
+        <td>25</td>
+        <td>60</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Mathematics</td>
+        <td>100</td>
+        <td>-</td>
+        <td>85</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>100</td>
+        <td>25</td>
+        <td>55</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <th>500</th>
+        <th>100</th>
+        <th>350</th>
+        <th>90</th>
+    </tr>
+    <tr>
+        <th colspan="3">Grand Total</th>
+        <td colspan="2">600</td>
+    </tr>
+    <tr>
+        <th colspan="3">Percentage</th>
+        <td colspan="2">73.33%</td>
+    </tr>
+    <tr>
+        <th colspan="3">Division</th>
+        <td colspan="2">First</td>
+    </tr>
+    <tr>
+        <th colspan="3">For More Info</th>
+        <td colspan="2">
+            <a href="https://kist.edu.np/" target="_blank">Kist College & SS</a>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
