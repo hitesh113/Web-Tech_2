@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Data Collection Center</h1>
+        <h3>Babarmahal, Kathmandu</h3>
+    </div>
+
+    <div class="form-container">
+        <h2>Survey Form Sample</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="father-name">Father's Name:</label>
+            <input type="text" id="father-name" name="father-name">
+
+            <label for="mother-name">Mother's Name:</label>
+            <input type="text" id="mother-name" name="mother-name">
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <label for="province">Province:</label>
+            <input type="text" id="province" name="province" value="Bagmati" readonly>
+
+            <label for="district">Select District:</label>
+            <select id="district" name="district">
+                <option value="Kathmandu">Kathmandu</option>
+                <option value="Lalitpur">Lalitpur</option>
+                <option value="Bhaktapur">Bhaktapur</option>
+            </select>
+
+            <label for="education">Select Your Education Level:</label>
+            <select id="education" name="education">
+                <option value="SLC">SLC</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Master">Master</option>
+            </select>
+
+            <label for="family-members">Number of Family Members:</label>
+            <input type="number" id="family-members" name="family-members">
+
+            <label for="employed-members">Number of Employed Family Members:</label>
+            <input type="number" id="employed-members" name="employed-members">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" value="rambahadur@gmail.com">
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>
